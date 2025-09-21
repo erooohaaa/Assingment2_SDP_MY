@@ -2,7 +2,7 @@ package factory;
 
 import product.*;
 
-public class XiaomiFactory implements AbstractPhoneFactory {
+public class XiaomiFactory implements PhoneFactory {
     @Override
     public Phone createGamingPhone() {
         return new GamingPhone("Xiaomi Black Shark", 16, "Snapdragon 8+ Gen 1", 6500, 999.99);

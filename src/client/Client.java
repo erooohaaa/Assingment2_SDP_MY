@@ -1,12 +1,12 @@
 package client;
 
-import factory.AbstractPhoneFactory;
+import factory.PhoneFactory;
 import product.Phone;
 
 public class Client {
-    private final AbstractPhoneFactory factory;
+    private final PhoneFactory factory;
 
-    public Client(AbstractPhoneFactory factory) {
+    public Client(PhoneFactory factory) {
         this.factory = factory;
     }
 
