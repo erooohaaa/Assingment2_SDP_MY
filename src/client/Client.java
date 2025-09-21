@@ -11,6 +11,7 @@ public class Client {
     }
 
     public void showPhones() {
+        System.out.println(factory.getBrand() + " phones:");
         Phone gaming = factory.createGamingPhone();
         Phone regular = factory.createRegularPhone();
 
