@@ -15,14 +15,9 @@ public class GamingPhone implements Phone {
         this.price = price;
     }
 
-    @Override
-    public String getModel() { return model; }
-    @Override
-    public int getRam() { return ram; }
-    @Override
-    public String getProcessor() { return processor; }
-    @Override
-    public int getBattery() { return battery; }
-    @Override
-    public double getPrice() { return price; }
+    @Override public String getModel() { return model; }
+    @Override public int getRam() { return ram; }
+    @Override public String getProcessor() { return processor; }
+    @Override public int getBattery() { return battery; }
+    @Override public double getPrice() { return price; }
 }
